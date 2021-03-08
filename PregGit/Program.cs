@@ -57,16 +57,18 @@ namespace PregGit
 
             Console.Clear();
             Console.WriteLine("REDSOCK");
-            Console.WriteLine("1- Quin any es va fundar RedSock?");
+            //Preguntes de RedSock
+            //5 Pregunte
+            Console.WriteLine("\t\t\t   1- Quin any es va fundar RedSock?");
             Console.WriteLine("1. 2013");
             Console.WriteLine("2. 1972");
             Console.WriteLine("3. 2019");
             Console.WriteLine("4. 2020");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -90,9 +92,9 @@ namespace PregGit
             Console.WriteLine("4. Pedro Sar");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r++;
@@ -115,9 +117,9 @@ namespace PregGit
             Console.WriteLine("4. Girona");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg) 
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -140,9 +142,9 @@ namespace PregGit
             Console.WriteLine("4. 1212€");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -165,7 +167,7 @@ namespace PregGit
             Console.WriteLine("4. 2050");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
             switch (rpreg)  //Switch
             {
@@ -182,7 +184,8 @@ namespace PregGit
                     r = r;
                     break;
             }
-            Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r);
+            //Contador per saber cuantes estan malament y de correctes
+            Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r);  //Marcador de soluciones
         }
 
         static void Tema3()
