@@ -62,9 +62,9 @@ namespace PregGit
             //Preguntes de Mercadona
             //5 Preguntes
             Console.Clear();
-            Console.WriteLine("MERCADONA");
+            Console.WriteLine("\n\t\t_______________________ MERCADONA _______________________\n");
 
-            Console.WriteLine("  1- De donde es Mercadona?");
+            Console.WriteLine("\t\t\t   1- De donde es Mercadona?");
             Console.WriteLine("1. Aleman");
             Console.WriteLine("2. Italiano");
             Console.WriteLine("3. Frances");
@@ -90,7 +90,7 @@ namespace PregGit
             }
 
 
-            Console.WriteLine("  2- Any de fundació?");
+            Console.WriteLine("\t\t\t   2- Any de fundació?");
             Console.WriteLine("1. 1975");
             Console.WriteLine("2. 2000");
             Console.WriteLine("3. 1977");
@@ -115,7 +115,7 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("  3- El mejor supermercado?");
+            Console.WriteLine("\t\t\t   3- El mejor supermercado?");
             Console.WriteLine("1. Bonpreu");
             Console.WriteLine("2. Mercadona");
             Console.WriteLine("3. Suma");
@@ -140,7 +140,7 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("  4- Que color relacionan a mercadona?");
+            Console.WriteLine("\t\t\t   4- Que color relacionan a mercadona?");
             Console.WriteLine("1. Rojo");
             Console.WriteLine("2. verde");
             Console.WriteLine("3. Marron");
@@ -165,7 +165,7 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("  5- En que pais tiene mas supermercados?");
+            Console.WriteLine("\t\t\t   5- En que pais tiene mas supermercados?");
             Console.WriteLine("1. Portugal");
             Console.WriteLine("2. Italia");
             Console.WriteLine("3. Suiza");
@@ -189,6 +189,7 @@ namespace PregGit
                     r++;
                     break;
             }
+            Console.WriteLine("\t\t______________________________________________________________\n");
             //Contador per saber cuantes estan malament y de correctes
             Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r);  //Marcador de solucions
         }
