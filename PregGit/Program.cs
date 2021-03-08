@@ -17,7 +17,7 @@ namespace PregGit
         {
             char mpreg;
             Console.Clear();
-            Console.WriteLine("\n\tMENU \n");
+            Console.WriteLine("\n\t MENU \n");
             Console.WriteLine("\t\t   1- Matematicas.");
             Console.WriteLine("\t\t   2- RedSock.");
             Console.WriteLine("\t\t   3- Mercadona.");
