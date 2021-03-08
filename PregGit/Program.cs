@@ -59,19 +59,21 @@ namespace PregGit
         {
             char rpreg;
             int r = 0;
+            //Preguntes de Mercadona
+            //5 Preguntes
             Console.Clear();
             Console.WriteLine("MERCADONA");
 
-            Console.WriteLine("\t\t\t   1- De donde es Mercadona?");
+            Console.WriteLine("  1- De donde es Mercadona?");
             Console.WriteLine("1. Aleman");
             Console.WriteLine("2. Italiano");
             Console.WriteLine("3. Frances");
             Console.WriteLine("4. Español");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -88,16 +90,16 @@ namespace PregGit
             }
 
 
-            Console.WriteLine("2- Any de fundació?");
+            Console.WriteLine("  2- Any de fundació?");
             Console.WriteLine("1. 1975");
             Console.WriteLine("2. 2000");
             Console.WriteLine("3. 1977");
             Console.WriteLine("4. 1981");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -113,16 +115,16 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("3- El mejor supermercado?");
+            Console.WriteLine("  3- El mejor supermercado?");
             Console.WriteLine("1. Bonpreu");
             Console.WriteLine("2. Mercadona");
             Console.WriteLine("3. Suma");
             Console.WriteLine("4. Spar");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -138,16 +140,16 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("\t\t\t   4- Que color relacionan a mercadona?");
+            Console.WriteLine("  4- Que color relacionan a mercadona?");
             Console.WriteLine("1. Rojo");
             Console.WriteLine("2. verde");
             Console.WriteLine("3. Marron");
             Console.WriteLine("4. Azul");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -163,16 +165,16 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("\t\t\t   5- En que pais tiene mas supermercados?");
+            Console.WriteLine("  5- En que pais tiene mas supermercados?");
             Console.WriteLine("1. Portugal");
             Console.WriteLine("2. Italia");
             Console.WriteLine("3. Suiza");
             Console.WriteLine("4. España");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -187,7 +189,8 @@ namespace PregGit
                     r++;
                     break;
             }
-            Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r);
+            //Contador per saber cuantes estan malament y de correctes
+            Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r);  //Marcador de solucions
         }
     }
 }
