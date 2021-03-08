@@ -56,7 +56,7 @@ namespace PregGit
             int r = 0;
 
             Console.Clear();
-            Console.WriteLine("REDSOCK");
+            Console.WriteLine("\n\t\t_______________________ REDSOCK _______________________\n");
             //Preguntes de RedSock
             //5 Pregunte
             Console.WriteLine("\t\t\t   1- Quin any es va fundar RedSock?");
@@ -85,7 +85,7 @@ namespace PregGit
             }
 
 
-            Console.WriteLine("2- Qui es el principal fundador?");
+            Console.WriteLine("\t\t\t   2- Qui es el principal fundador?");
             Console.WriteLine("1. Eduard Ribas");
             Console.WriteLine("2. Cristian Reyes");
             Console.WriteLine("3. Biel Auguet");
@@ -110,7 +110,7 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("3- Donde se fundo RedSock?");
+            Console.WriteLine("\t\t\t   3- Donde se fundo RedSock?");
             Console.WriteLine("1. Madrid");
             Console.WriteLine("2. Andorra");
             Console.WriteLine("3. Playa de Aro");
@@ -135,7 +135,7 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("4- Presuspost Inicial?");
+            Console.WriteLine("\t\t\t   4- Presuspost Inicial?");
             Console.WriteLine("1. 225€");
             Console.WriteLine("2. 110€");
             Console.WriteLine("3. 500€");
@@ -160,7 +160,7 @@ namespace PregGit
                     break;
             }
 
-            Console.WriteLine("5- En quin any sera la sortida de Glore?");
+            Console.WriteLine("\t\t\t   5- En quin any sera la sortida de Glore?");
             Console.WriteLine("1. 2022");
             Console.WriteLine("2. 2021");
             Console.WriteLine("3. 2023");
@@ -184,6 +184,7 @@ namespace PregGit
                     r = r;
                     break;
             }
+            Console.WriteLine("\t\t______________________________________________________________\n");
             //Contador per saber cuantes estan malament y de correctes
             Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r);  //Marcador de soluciones
         }
