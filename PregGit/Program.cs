@@ -47,7 +47,138 @@ namespace PregGit
 
         static void Tema1()
         {
+            char rpreg;
+            int r = 0;
+            Console.Clear();
+            Console.WriteLine("MATEMATIQUES");
 
+            Console.WriteLine("\t\t\t   1- La Suma 1+1 dona com a resultat?");
+            Console.WriteLine("1. Resultat = 25");
+            Console.WriteLine("2. Resultat = 52");
+            Console.WriteLine("3. Resultat = 5");
+            Console.WriteLine("4. Resultat = 2");
+
+            Console.WriteLine("Introdueix el valor: ");
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+
+            switch (rpreg)
+            {
+                case '1':
+                    r = r;
+                    break;
+                case '2':
+                    r = r;
+                    break;
+                case '3':
+                    r = r;
+                    break;
+                case '4':
+                    r++;
+                    break;
+            }
+
+
+            Console.WriteLine("\t\t\t   2- La Suma 11*5 dona com a resultat?");
+            Console.WriteLine("1. Resultat = 25");
+            Console.WriteLine("2. Resultat = 52");
+            Console.WriteLine("3. Resultat = 55");
+            Console.WriteLine("4. Resultat = 21");
+
+            Console.WriteLine("Introdueix el valor: ");
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+
+            switch (rpreg)
+            {
+                case '1':
+                    r = r;
+                    break;
+                case '2':
+                    r = r;
+                    break;
+                case '3':
+                    r++;
+                    break;
+                case '4':
+                    r = r;
+                    break;
+            }
+
+            Console.WriteLine("\t\t\t   3- La Suma 3/1 dona com a resultat?");
+            Console.WriteLine("1. Resultat = 232");
+            Console.WriteLine("2. Resultat = 12");
+            Console.WriteLine("3. Resultat = 2");
+            Console.WriteLine("4. Resultat = 3");
+
+            Console.WriteLine("Introdueix el valor: ");
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+
+            switch (rpreg)
+            {
+                case '1':
+                    r = r;
+                    break;
+                case '2':
+                    r = r;
+                    break;
+                case '3':
+                    r = r;
+                    break;
+                case '4':
+                    r++;
+                    break;
+            }
+
+            Console.WriteLine("\t\t\t   4- La Suma 250*4 dona com a resultat?");
+            Console.WriteLine("1. Resultat = 225");
+            Console.WriteLine("2. Resultat = 1000");
+            Console.WriteLine("3. Resultat = 500");
+            Console.WriteLine("4. Resultat = 212");
+
+            Console.WriteLine("Introdueix el valor: ");
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+
+            switch (rpreg) 
+            {
+                case '1':
+                    r = r;
+                    break;
+                case '2':
+                    r++;
+                    break;
+                case '3':
+                    r = r;
+                    break;
+                case '4':
+                    r = r;
+                    break;
+            }
+
+            Console.WriteLine("\t\t\t   5- La Suma 33/3 dona com a resultat?");
+            Console.WriteLine("1. Resultat = 25");
+            Console.WriteLine("2. Resultat = 2");
+            Console.WriteLine("3. Resultat = 23");
+            Console.WriteLine("4. Resultat = 11");
+
+            Console.WriteLine("Introdueix el valor: ");
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+
+            switch (rpreg)
+            {
+                case '1':
+                    r = r;
+                    break;
+                case '2':
+                    r = r;
+                    break;
+                case '3':
+                    r = r;
+                    break;
+                case '4':
+                    r++;
+                    break;
+            }
+            
+            Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r); 
         }
 
         static void Tema2()
