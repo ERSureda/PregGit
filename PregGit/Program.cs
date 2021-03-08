@@ -49,6 +49,8 @@ namespace PregGit
         {
             char rpreg;
             int r = 0;
+            //Tema de Matematiques
+            //5 Preguntes Diferents
             Console.Clear();
             Console.WriteLine("MATEMATIQUES");
 
@@ -59,9 +61,9 @@ namespace PregGit
             Console.WriteLine("4. Resultat = 2");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)      //Switch
             {
                 case '1':
                     r = r;
@@ -85,9 +87,9 @@ namespace PregGit
             Console.WriteLine("4. Resultat = 21");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -110,9 +112,9 @@ namespace PregGit
             Console.WriteLine("4. Resultat = 3");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -135,9 +137,9 @@ namespace PregGit
             Console.WriteLine("4. Resultat = 212");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg) 
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -160,9 +162,9 @@ namespace PregGit
             Console.WriteLine("4. Resultat = 11");
 
             Console.WriteLine("Introdueix el valor: ");
-            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);
+            rpreg = Convert.ToChar(Console.ReadKey().KeyChar);  //Preginta Solució
 
-            switch (rpreg)
+            switch (rpreg)  //Switch
             {
                 case '1':
                     r = r;
@@ -177,8 +179,8 @@ namespace PregGit
                     r++;
                     break;
             }
-            
-            Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r); 
+            //Contador per saber cuantes estan malament y de correctes
+            Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r);    //Marcador
         }
 
         static void Tema2()
