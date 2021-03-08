@@ -48,11 +48,11 @@ namespace PregGit
         static void Tema1()
         {
             char rpreg;
-            int r = 0;
+            int r=0;
             //Tema de Matematiques
             //5 Preguntes Diferents
             Console.Clear();
-            Console.WriteLine("MATEMATIQUES");
+            Console.WriteLine("\n\t\t_______________________ MATEMATIQUES _______________________\n");  //CW
 
             Console.WriteLine("\t\t\t   1- La Suma 1+1 dona com a resultat?");
             Console.WriteLine("1. Resultat = 25");
@@ -179,8 +179,9 @@ namespace PregGit
                     r++;
                     break;
             }
+            Console.WriteLine("\t\t______________________________________________________________\n");
             //Contador per saber cuantes estan malament y de correctes
-            Console.WriteLine("Errors: " + (5 - r) + ", Correctes: " + r);    //Marcador
+            Console.WriteLine("Errors: " + (5-r) + ", Correctes: " + r);    //Marcador
         }
 
         static void Tema2()
